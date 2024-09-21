@@ -1,0 +1,15 @@
+.card {
+    padding: 20px;
+    background-color: #f3f3f3b0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    text-align: left;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }

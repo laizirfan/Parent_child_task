@@ -1,0 +1,9 @@
+<div class="parent-container">
+  <div class="card-container" *ngFor="let user of users">
+    <app-child [user]="user" (taskCompleted)="onCompleteTask($event)"></app-child>
+  </div>
+
+  <div class="task-completed">
+    <h3 *ngIf="completedUserName">Task Completed User: {{ completedUserName }}</h3>
+  </div>
+  </div>
